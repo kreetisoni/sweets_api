@@ -1,6 +1,6 @@
 # Sweets_API
 
-“Get your favourite sweetsies!” — a role-based Sweet Shop management system built with **FastAPI** and **React**.
+A role-based Sweet Shop management system built with **FastAPI** and **React**.
 
 Users can view, search, add, and update sweets, while admins can also delete and restock them. JWT-based authentication ensures secure access.
 
