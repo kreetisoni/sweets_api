@@ -53,11 +53,11 @@ def read_sweet(sweet_id: int, db: Session = Depends(get_db)):
 # ----------------xxxx
 # Create a sweet (any authenticated user can do )
 # ---------------xxxx
-@app.post("/sweets/add", response_model=SweetResponse)
+@app.post("/sweets", response_model=SweetResponse)
 def add_sweet(
     sweet: SweetCreate,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user)  # any logged-in user
+    current_user: User = Depends(get_current_user)
 ):
     db_sweet = db.query(Sweet).filter(Sweet.name == sweet.name).first()
     if db_sweet:
