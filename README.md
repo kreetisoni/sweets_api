@@ -24,7 +24,7 @@ password=admin123
 
 **Tech Stack:**
 - **Backend:** FastAPI, SQLAlchemy, SQLite, JWT Authentication
-- **Frontend:** React (optional, in `frontend` folder)
+- **Frontend:** React
 - **Authentication:** JWT + Passlib (bcrypt)
 
 ---
