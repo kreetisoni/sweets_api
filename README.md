@@ -56,7 +56,7 @@ Frontend will run at: http://localhost:3000
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### Backend
 
