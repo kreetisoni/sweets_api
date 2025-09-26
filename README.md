@@ -38,6 +38,15 @@ password=admin123
 ```bash
 pip install -r requirements.txt
 ```
+
+### Backend
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/kreetisoni/sweets_api.git
+cd sweets_api
+```
 ### Frontend
 
 1. Navigate to the frontend folder:
@@ -56,12 +65,3 @@ npm start
 ```
 
 Frontend will run at: http://localhost:3000
-
-### Backend
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/kreetisoni/sweets_api.git
-cd sweets_api
-```
