@@ -29,7 +29,27 @@ password=admin123
 
 ---
 
+## Frontend Setup
+
+1. Navigate to the frontend folder:
+```bash
+cd frontend
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm start
+```
+
+Frontend will run at: http://localhost:3000
+
 ## Setup Instructions
+
 
 1. Save this content in a file named **`requirements.txt`** in your project root.
 2. Run the following command to install all dependencies:
