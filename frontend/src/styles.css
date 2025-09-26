@@ -1,0 +1,192 @@
+/* ---------- Dashboard Container ---------- */
+.dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* ---------- Dashboard Grid ---------- */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* ---------- Add Sweet Form ---------- */
+.add-sweet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.add-sweet-form input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-sweet-form button {
+  background: #1890ff;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-sweet-form button:hover {
+  background: #40a9ff;
+}
+
+/* ---------- Sweet List ---------- */
+.sweet-list-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sweet-list-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid #eee;
+  border-radius: 6px;
+  background: #fafafa;
+  margin-bottom: 0.4rem;
+}
+
+/* ---------- Delete Button ---------- */
+.delete-btn {
+  background: #ff4d4f;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.delete-btn:hover {
+  background: #ff7875;
+}
+
+/* ---------- Logout Button ---------- */
+.logout-wrapper {
+  margin-top: 2rem;
+}
+
+.logout-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.logout-btn:hover {
+  background: #a71d2a;
+}
+
+/* ---------- Error Messages ---------- */
+.error {
+  color: #c62828;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Forms (Login/Register) ---------- */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-box {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-box input {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-btn {
+  width: 50%;
+  margin: 0.5rem auto 0 auto;
+  display: block;
+  background-color: #003366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-btn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.toggle-link {
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #1890ff;
+  display: block;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('F:\sweets_api\download (4) (1).jpg');
+  background-size: cover;       /* Cover whole screen */
+  background-position: center;  /* Center it */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-title {
+  animation: fadeInUp 1.5s ease forwards;
+}
+
