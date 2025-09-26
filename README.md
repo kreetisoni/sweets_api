@@ -45,6 +45,11 @@ Run the following command to install all dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Run the backend server
+
+```bash
+uvicorn main:app --reload
+```
 
 ### Frontend
 
@@ -58,14 +63,12 @@ cd frontend
 npm install
 ```
 
-3. Run the development server:
+
+3. Run the development server (In a different bash terminal):
 ```bash
 npm start
 ```
 
 Frontend will run at: http://localhost:3000
 
-4.In a different bash terminal run the following command:
-```bash
-uvicorn main:app --reload
-```
+
