@@ -53,8 +53,8 @@ uvicorn main:app --reload
 
 ### Frontend
 
-1. In a separate bash terminal navigate to the frontend folder:
-   (make sure you're in the same directory as sweets_api)
+1. In a separate bash terminal navigate to the frontend folder
+   (make sure you're in the same directory as sweets_api):
 ```bash
 cd frontend
 ```
