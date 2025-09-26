@@ -4,9 +4,9 @@ A role-based Sweet Shop management system built with **FastAPI** and **React**.
 
 Users can view, search, add, and update sweets, while admins can also delete and restock them. JWT-based authentication ensures secure access.
 
-NOTE: admin user credentials:
-username=admin
-password=admin123
+NOTE: Admin user credentials:
+username:admin
+password:admin123
 ---
 
 ## Features
