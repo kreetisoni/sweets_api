@@ -31,14 +31,6 @@ password:admin123
 
 ## Setup Instructions
 
-
-1. Save this content in a file named **`requirements.txt`** in your project root.
-2. Run the following command to install all dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Backend
 
 1. Clone the repository:
@@ -47,6 +39,13 @@ pip install -r requirements.txt
 git clone https://github.com/kreetisoni/sweets_api.git
 cd sweets_api
 ```
+
+Run the following command to install all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Frontend
 
 1. Navigate to the frontend folder:
