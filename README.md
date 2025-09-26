@@ -64,3 +64,8 @@ npm start
 ```
 
 Frontend will run at: http://localhost:3000
+
+4.In a different bash terminal run the following command:
+```bash
+uvicorn main:app --reload
+```
