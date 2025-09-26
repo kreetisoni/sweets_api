@@ -53,7 +53,7 @@ uvicorn main:app --reload
 
 ### Frontend
 
-1. Navigate to the frontend folder:
+1. Navigate to the frontend folder in a separate bash terminal:
 ```bash
 cd frontend
 ```
@@ -64,7 +64,7 @@ npm install
 ```
 
 
-3. Run the development server (In a different bash terminal):
+3. Run the development server:
 ```bash
 npm start
 ```
