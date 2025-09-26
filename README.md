@@ -28,6 +28,13 @@ Users can view, search, add, and update sweets, while admins can also delete and
 
 ## Setup Instructions
 
+1. Save this content in a file named **`requirements.txt`** in your project root.
+2. Run the following command to install all dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
 ### Backend
 
 1. Clone the repository:
